@@ -1,0 +1,16 @@
+{
+    "DevServer": {
+        "port": 5000
+        },
+    "DB": {
+        "user": "my",
+        "host": "localhost",
+        "database": "my_database",
+        "password": "root",
+        "port": 5432,
+        "max": 20,
+        "idleTimeoutMillis": 30000,
+        "connectionTimeoutMillis": 2000
+    },
+    "mongoURL": "mongodb+srv://admindb:10051005@messages.9gfyl.mongodb.net/main?retryWrites=true&w=majority"
+}

@@ -1,0 +1,32 @@
+.technologiesGSrid {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  display: grid;
+  background-image: linear-gradient(to right, #a75fb5, #0ba3b0);
+  grid-gap: 10px;
+  background-blend-mode: hard-light;
+  background-position: center;
+  background-size: cover;
+}
+
+.technologiesGSrid h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 900;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.technologiesGrid span {
+  font-size: 3vw;
+}
+
+.technologiesGridContent {
+  /* color: #fff; */
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(3, 6fr);
+  grid-template-columns: repeat(3, 5fr);
+  grid-gap: 30px;
+}

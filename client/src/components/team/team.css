@@ -1,0 +1,28 @@
+.ourTeam {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: grid;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-image: url(/src/images/team.jpg),
+    radial-gradient(#0ba3b0, #111 70%);
+  background-blend-mode: multiply;
+  background-position: top;
+  background-size: cover;
+}
+
+.ourTeam h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 900;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ourTeamContent {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
