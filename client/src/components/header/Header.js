@@ -10,7 +10,7 @@ function Header() {
     <div className="header">
       <div className="headerMenu">
         <div className="headerMenuLogo">
-          <h3><span>New</span> Factory</h3>
+          <a href="newfactory.org"><h3><span>New</span> Factory</h3></a>
         </div>
         <div className="headerMenuItems">
           <a href="#about">About</a>

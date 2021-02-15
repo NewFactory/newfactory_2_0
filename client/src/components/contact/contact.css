@@ -71,3 +71,20 @@ label {
     border-width: 0;
     background-image: linear-gradient(to right, #a75fb5, #0ba3b0);
 }
+
+@media all and (max-width: 950px) {
+    form {
+        display: block;
+    }
+    label {
+        border-radius: 25px;
+    }
+    input {
+        border-radius: 25px;
+    }
+    .btm {
+        border-radius: 25px;
+    }
+
+
+}

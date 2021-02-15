@@ -14,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy-production": "react-scripts build && scp -r ./build/* root@62.151.177.174:/var/www/newfactory_2_0/client/build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -23,7 +24,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:80",
   "browserslist": {
     "production": [
       ">0.2%",

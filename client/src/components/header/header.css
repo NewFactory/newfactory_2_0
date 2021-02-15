@@ -1,5 +1,4 @@
 .header {
-  height: 30px;
   width: 100%;
   display: grid;
   font-weight: 600;
@@ -17,10 +16,8 @@
 
 .headerMenuLogo h3 {
   color: #fff;
-  margin-top: 7px;
   font-size: 16px;
   text-align: center;
-  align-items: center;
 }
 
 .headerMenuLogo span {
@@ -50,6 +47,7 @@
   font-weight: 900;
   color: #fff;
   display: grid;
+  gap: 10px;
   text-align: center;
   align-items: center;
   grid-template-columns: repeat(3, 2fr);
@@ -57,4 +55,17 @@
 
 .headerMenuSocialIcons a:hover {
   color: #0ba3b0;
+}
+
+@media all and (max-width: 480px) {
+  .headerMenuSocialIcons {
+   display: none;
+  }
+  .headerMenuItems {
+    grid-template-columns: auto;
+  }
+  .headerMenuLogo h3 {
+    padding: 20% 0;
+  }
+
 }
